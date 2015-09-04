@@ -18,3 +18,12 @@
 	</div>
 
 </body>
+
+<% @posts.each do |post| %>
+	<div>
+	    <h1><%= post.title %></h1><br />
+    <i><%= post.blogpost %></i><br />
+  </div>
+
+  <hr />
+<% end %>
