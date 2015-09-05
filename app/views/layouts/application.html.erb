@@ -24,7 +24,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
       	    <li>
-           <%= link_to "#", :class => 'navbar-link' do %>
+           <%= link_to new_post_path, :class => 'navbar-link' do %>
            <i class="glyphicon glyphicon-plus-sign"></i>
            New Post
           <% end %>
@@ -38,6 +38,13 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+<% if notice.present? %>
+	<p class="alert alert-info"><%= notice %></p>
+<% end %>
+<% if alert.present? %>
+	<p class="alert alert-danger"><%= alert %></p>
+<% end %>
 
 <%= yield %>
 

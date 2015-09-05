@@ -39,6 +39,9 @@ gem 'sprockets', '2.11.0'
 # Add Simpleform
 gem 'simple_form'
 
+# Add Devise Gem
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
