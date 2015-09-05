@@ -34,6 +34,17 @@ body {
     background-size: cover;
 }
 
+.post-box {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 30px;
+	margin: 30px;
+	text-align: left;
+	color: #A6DBFF;
+	font-family: 'exothin', sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+}
+
 h1 {
 	color: #009BB0;
 	font-family: 'Helvetica Neue', Helvetica;
@@ -68,6 +79,24 @@ h4 {
 	font-family: 'courier new', courier;
 	font-size: 50px;
 	text-align: center;
+}
+
+h5 {
+	color: #A6DBFF;
+	font-family: 'exothin', sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	margin: 0px;
+	text-align: left;
+}
+
+h6 {
+	color: #A6DBFF;
+	font-family: 'exoregular', sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	margin: 0px;
+	text-align: left;
 }
 
 hr {

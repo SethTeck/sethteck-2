@@ -1,0 +1,8 @@
+<div class="post-box">
+	<h6>New Blog Post</h6> </br>
+		<%= simple_form_for @post do |f| %>
+		<%= f.input :title %>
+		<%= f.input :blogpost %>
+		<%= f.submit 'Blog It!', :class => 'btn btn-primary' %>
+	<% end %>
+</div>
