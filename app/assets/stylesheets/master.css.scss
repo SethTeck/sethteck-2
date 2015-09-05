@@ -23,7 +23,7 @@
 	background-color: rgba(0, 0, 0, 0.6);
 	padding: 30px;
 	margin: 30px;
-	text-align: center;
+
 }
 
 body { 
@@ -56,11 +56,13 @@ h1 {
 
 h2 {
 	color: #A6DBFF;
-	font-family: 'courier new', courier;
+	font-family: 'exoregular', sans-serif;
 	font-weight: 100;
 	font-size: 15px;
 	margin: 0px;
-	text-align: center;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 20px;
 }
 
 h3 {
@@ -97,6 +99,24 @@ h6 {
 	font-size: 18px;
 	margin: 0px;
 	text-align: left;
+}
+
+h7 {
+	color: #A6DBFF;
+	font-family: 'courier new', courier;
+	font-weight: 100;
+	font-size: 11px;
+	margin: 0px;
+	text-align: left;
+}
+
+h8 {
+	color: #009BB0;
+	font-family: 'exobold', sans-serif;
+	font-size: 40px;
+	margin: 0px;
+	text-align: left;
+	text-decoration: underline;
 }
 
 hr {

@@ -1,7 +1,9 @@
 <% @posts.each do |post| %>
 	<div class="box3">
-	  	 <h1><%= post.title %></h1><br />
-    	 <h2><i><%= post.blogpost %></i></h2><br />
+	  	 <h8><%= post.title %></h8><br /><br />
+    	 <h2><%= post.blogpost %></h2><br /><br />
+    	 <h7><%= post.created_at.strftime("%b %d, %Y") %></h7><br />
+
     </div>
 
      <hr>
