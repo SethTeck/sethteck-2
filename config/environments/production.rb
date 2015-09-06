@@ -1,5 +1,5 @@
-Sethteck2::Application.configure do   config.action_mailer.default_url_options
-= { :host => 'sethteck-2-seth-allen.herokuapp.com' }
+Sethteck2::Application.configure do   
+  config.action_mailer.default_url_options = { :host => 'sethteck-2-seth-allen.herokuapp.com' }
 
   # Settings specified here will take precedence over those in config/application.rb.
 
