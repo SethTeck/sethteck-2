@@ -2,7 +2,7 @@ class PostsController < ApplicationController
 	before_action :authenticate_user!, :only => [:new, :create]
 
 	def index
-		@posts = Post.all
+		@posts = Post.all.paginate(:page => params[:page], :per_page => 1).order('created_at DESC')
 	end
 
 	def new
@@ -12,6 +12,13 @@ class PostsController < ApplicationController
 	def create
 		current_user.posts.create(post_params)
 		redirect_to root_path
+	end
+
+	def show
+		@post = Post.find(params[:id])
+	end
+
+	def edit
 	end
 
 	def about

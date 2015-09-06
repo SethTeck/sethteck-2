@@ -18,13 +18,12 @@
 .box2 {
 	background-color: rgba(0, 0, 0, 0.6);
 	padding: 20px;
-	width: auto;
-	margin: 30px auto;
+	margin-top: 60px;
 	text-align: center;
 }
 
 .box3 {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.8);
 	padding: 30px;
 	margin-top: 30px;
 
@@ -74,11 +73,11 @@ h2 {
 	color: #A6DBFF;
 	font-family: 'exoregular', sans-serif;
 	font-weight: 100;
-	font-size: 15px;
+	font-size: 17px;
 	margin: 0px;
 	text-align: left;
-	letter-spacing: 1px;
-	line-height: 20px;
+	letter-spacing: 1.5px;
+	line-height: 25px;
 }
 
 h3 {
@@ -91,11 +90,9 @@ h3 {
 }
 
 h4 {
-	color: #E64343;
-	line-height: 90%;
-	font-weight: 100;
+	color: #A6DBFF;
 	font-family: 'courier new', courier;
-	font-size: 50px;
+	font-size: 16px;
 	text-align: center;
 }
 
@@ -121,7 +118,7 @@ h7 {
 	color: #A6DBFF;
 	font-family: 'courier new', courier;
 	font-weight: 100;
-	font-size: 11px;
+	font-size: 14px;
 	margin: 0px;
 	text-align: left;
 }
@@ -133,6 +130,50 @@ h8 {
 	margin: 0px;
 	text-align: left;
 	text-decoration: underline;
+}
+
+h9 {
+	color: #009BB0;
+	font-family: 'exothin', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	margin: 0px;
+}
+
+.h10 {
+	color: #A6DBFF;
+	font-family: 'exoregular', sans-serif;
+	font-size: 16px;
+	margin: 0px;
+	text-align: left;
+}
+
+h11 {
+	color: #A6DBFF;
+	font-family: 'exoregular', sans-serif;
+	font-weight: 100;
+	font-size: 17px;
+	margin: 0px;
+	text-align: center;
+	letter-spacing: 1.5px;
+	line-height: 25px;
+}
+
+a {
+  color: #A6DBFF;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #A6DBFF;
+}
+
+a:hover {
+  color: #00E1FF;
+}
+
+a:active {
+  color: #00B2C9;
 }
 
 hr {
