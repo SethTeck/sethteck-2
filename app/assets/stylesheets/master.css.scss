@@ -28,7 +28,7 @@
 }
 
 .box {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.8);
 	-moz-box-shadow: 2px 2px 3px 0 #171717;
     -webkit-box-shadow: 2px 2px 3px 0 #171717;
     box-shadow: 2px 2px 3px 0 #171717;
@@ -82,7 +82,7 @@ body {
 }
 
 .post-box {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.8);
 	-moz-box-shadow: 2px 2px 3px 0 #171717;
     -webkit-box-shadow: 2px 2px 3px 0 #171717;
     box-shadow: 2px 2px 3px 0 #171717;
@@ -125,8 +125,8 @@ h3 {
 }
 
 h4 {
-	color: #A6DBFF;
-	font-family: 'courier new', courier;
+	color: #FFFFFF;
+	font-family: 'exoregular', sans-serif;
 	font-size: 16px;
 	text-align: center;
 }
@@ -168,7 +168,7 @@ h8 {
 }
 
 h9 {
-	color: #009BB0;
+	color: #00E1FF;
 	font-family: 'exothin', sans-serif;
 	font-size: 80px;
 	text-align: center;
@@ -200,7 +200,7 @@ a {
 }
 
 a:visited {
-  color: #A6DBFF;
+  color: #FFFFFF;
 }
 
 a:hover {
@@ -243,7 +243,7 @@ p {
 
 .navbar-inverse .navbar-brand {
     color: #00B2C9;
-    font-family:'exothin', sans-serif;
+    font-family:'exoregular', sans-serif;
     font-size: 26px;
 }
 
@@ -260,7 +260,7 @@ p {
 }
 
 .navbar-inverse .navbar-collapse .navbar-right .navbar-link {
-	font-family: 'exothin', sans-serif;
+	font-family: 'exoregular', sans-serif;
     font-size: 18px;
     color: #9d9d9d;
 }
@@ -278,7 +278,7 @@ p {
 }
 
 .navbar-inverse .navbar-collapse .navbar-link {
-	font-family: 'exothin', sans-serif;
+	font-family: 'exoregular', sans-serif;
     font-size: 18px;
     color: #9d9d9d;
 }
