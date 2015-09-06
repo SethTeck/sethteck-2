@@ -11,7 +11,7 @@ class PostsController < ApplicationController
 
 	def create
 		current_user.posts.create(post_params)
-		redirect_to root_path
+		redirect_to Post.find(params[:id])
 	end
 
 	def show
