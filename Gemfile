@@ -44,6 +44,9 @@ gem 'devise'
 
 gem 'will_paginate', '~> 3.0.6'
 
+# Include data-confirm
+gem 'data-confirm-modal', github: 'ifad/data-confirm-modal'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

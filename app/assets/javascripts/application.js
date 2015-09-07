@@ -15,3 +15,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+dataConfirmModal.setDefaults({
+  title: 'Confirm your action',
+  commit: 'Continue',
+  cancel: 'Cancel'
+});
