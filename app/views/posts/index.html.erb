@@ -1,16 +1,21 @@
 <% @posts.each do |post| %>
 	<div class="box3 col-xs-10 col-xs-offset-1">
-	  	 <h8 class:"navbar-link">
+	  	 <h8 class:"box 3 navbar-link">
 	  	 <%= link_to post.title, post_path(post) %></h8><br /><br />
     	 <h2><%= post.blogpost %></h2><br /><br />
-    	 <h7><%= post.created_at.strftime("%b %d, %Y") %></h7><br />
-
+    	 <h7><%= post.created_at.strftime("%b %d, %Y") %></h7>
+    	 <br />
+    	 <br />
+    	 <br />
+    	 <div class="body box4 col-xs-6 col-xs-offset-3"><%= will_paginate @posts %>
+    	 </div>
     </div>
-
-     <hr>
 <% end %>
 		
-<%= will_paginate @posts %>
+
+
+
+
 
 
 

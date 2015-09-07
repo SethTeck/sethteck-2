@@ -55,7 +55,15 @@
     box-shadow: 2px 2px 3px 0 #171717;
 	padding: 30px;
 	margin-top: 30px;
+	text-align: left;
 
+}
+
+.box4 {
+	background-color: rgba(0, 0, 0, 0);
+	padding: 0px;
+	text-align: center;
+	margin-bottom: 0px;
 }
 
 .sign-in {
@@ -79,7 +87,13 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: #009BB0;
+    font-family: 'exoregular', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: left
 }
+
 
 .post-box {
 	background-color: rgba(0, 0, 0, 0.8);
