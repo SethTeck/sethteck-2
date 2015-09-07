@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-	before_action :authenticate_user!, :only => [:new, :create, :edit, :update]
+	before_action :authenticate_user!, :only => [:new, :create, :edit, :update, :destroy]
 
 	def index
 		@posts = Post.all.paginate(:page => params[:page], :per_page => 1).order('created_at DESC')
@@ -22,14 +22,14 @@ class PostsController < ApplicationController
 		@post = Post.find(params[:id])
 
 		if @post.user != current_user
-			return render :text => "Not allowed", :status => :forbidden
+			return render :text => "Not Allowed", :status => :forbidden
 		end
 	end
 
 	def update
 		@post = Post.find(params[:id])
 		if @post.user != current_user
-			return render :text => "Not allowed", :status => :forbidden
+			return render :text => "Not Allowed", :status => :forbidden
 		end
 
 		@post.update_attributes(post_params)
@@ -38,6 +38,10 @@ class PostsController < ApplicationController
 
 	def destroy
 		@post = Post.find(params[:id])
+		if @post.user != current_user
+			return render :text => 'Not Allowed', :status => :forbidden
+		end
+
 		@post.destroy
 		redirect_to root_path
 	end
